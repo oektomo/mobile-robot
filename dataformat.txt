@@ -1,0 +1,18 @@
+Raspberry --> arduino
+LeftW<value(-255~255)>RightW<value(-255~255)>
+L:<value(-255~255)>&R:<value(-255~255)>
+
+arduino --> Raspberry
+LeftEn<value(0-255)>RightEn<value(0-255)>leftS<value(cm)>frontS<value(cm)>rightS<value(cm)>
+
+Raspberry <--> Raspberry
+positionX, positionY, theta (attitude)
+
+Raspberry <--> PC
+control and positionX, positionY, theta
+
+1:90&2:80&3:180
+servoId : Position & servoId : Position & servoId : Position
+strchr(): search for a character in a C string (i.e. char *)
+strtok(): splits a C string into substrings, based on a separator character
+atoi(): converts a C string to an int

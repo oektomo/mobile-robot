@@ -1,0 +1,5 @@
+sudo ip link set wlan9 down ; sudo iwconfig wlan9 mode ad-hoc
+sudo iwconfig wlan9 essid 'rpi network'
+sudo iwconfig wlan9 key 1234567890
+sudo ip link set wlan9 up
+sudo ifconfig wlan9 192.168.0.100/16

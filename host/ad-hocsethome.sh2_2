@@ -8,6 +8,6 @@ sudo iwconfig $1 key 1234567890
 sudo ip link set $1 up
 sudo ifconfig $1 192.168.0.100/16
 else
-	echo "please input 1 argument 'a nic'"
-	echo "./ad-hocsethome.sh wlan10"
+	echo "please input 1 argument"
+	echo "which is device network name"
 fi

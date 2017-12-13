@@ -1,0 +1,8 @@
+pscp -scp -pw raspberry ad-hocset.sh1 pi@192.168.0.101:/home/pi/ad-hocset.sh
+scp setstartup.sh pi@192.168.0.101:/home/pi/
+scp ad-hocset.sh2 pi@192.168.0.102:/home/pi/ad-hocset.sh
+scp setstartup.sh pi@192.168.0.102:/home/pi/
+scp ad-hocset.sh3 pi@192.168.0.103:/home/pi/ad-hocset.sh
+scp setstartup.sh pi@192.168.0.103:/home/pi/
+scp ad-hocset.sh4 pi@192.168.0.104:/home/pi/ad-hocset.sh
+scp setstartup.sh pi@192.168.0.104:/home/pi/

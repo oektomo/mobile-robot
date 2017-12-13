@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <arduinotalker.h>
+
+int main()
+{
+mega1 = new ArduinoTalker(this);
+mega1->ConnectToArduino("/dev/ttyACM0", errorLimit);
+}

@@ -1,0 +1,3 @@
+OPEN SERIAL
+check buffer in serial?
+read and store in local buffer

@@ -1,0 +1,20 @@
+#!/bin/bash
+#receive input from argument
+if [ $# -eq 0 ]
+then
+ARG1 = wlan0
+fi
+
+if [ $# -eq 1 ]
+then
+	ARG1 = $1 
+
+sudo ip link set ARG1 down ; sudo iwconfig $1 mode ad-hoc
+sudo iwconfig ARG1 essid 'rpi network'
+sudo iwconfig ARG1 key 1234567890
+sudo ip link set ARG1 up
+sudo ifconfig ARG1 192.168.0.100/16
+else
+	echo "please input 1 argument"
+	echo "which is device network name"
+fi
